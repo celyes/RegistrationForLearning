@@ -7,6 +7,11 @@
 			<div class="text-center">
 				<img src="assets/img/icon.png" class="hero-icon mb-4">
 			</div>
+			<?php if(isset($_SESSION['flash_message'])){ ?>
+			<div class="alert alert-danger">	
+				<small><?= $_SESSION['flash_message']; ?></small>	
+			</div>
+			<?php }?>
 			<form method="POST" action="<?php echo htmlspecialchars('actions/login.php')?>">
 				
 				<div class="form-group">
@@ -26,6 +31,6 @@
 				<p class="text-muted"><small>Don't have an account yet? <a href="register.php"> Sign up</a></small></p>
 			</div>	
 		</div>
-
+		<?php session_destroy(); ?>
 	</div>
 <?php require(__DIR__.'/partials/footer.php'); ?>	

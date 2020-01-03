@@ -7,12 +7,12 @@
 			<div class="text-center">
 				<img src="assets/img/icon.png" class="hero-icon mb-4">
 			</div>
-			
-				<?php if(isset($_SESSION['flash_message'])){ ?>
-				<div class="alert alert-danger">	
-					<small><?= $_SESSION['flash_message']; ?></small>	
-				</div>
-				<?php }?>
+		
+			<?php if(isset($_SESSION['flash_message'])){ ?>
+			<div class="alert alert-danger">	
+				<small><?= $_SESSION['flash_message']; ?></small>	
+			</div>
+			<?php }?>
 			<form method="POST" action="<?= htmlspecialchars('actions/register.php')?>">
 				<div class="row">
 					<div class="form-group col">

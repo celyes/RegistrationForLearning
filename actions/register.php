@@ -1,4 +1,5 @@
 <?php
+
 require_once('config.php');
 
 function validateData($data) {
@@ -56,8 +57,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 			$query->bind_param('ssss', $firstname, $lastname, $email, $pass);
 			$query->execute();	
 			if(count($query->store_result()) > 0){
-				
 				$_SESSION["flash_success"] = "successfully registered!";
+				$_SESSION["loggedin"] = true;
 				header('Location: ../admin/index.php');
 			}
 		}
