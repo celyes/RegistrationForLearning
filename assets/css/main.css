@@ -1,0 +1,132 @@
+body{
+	overflow-x: hidden;
+}
+.red{
+	color: #F00;
+	font-size: 16px;
+}
+.navbar{
+	border-bottom: 1px solid #E5E9EF
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#838E95;
+}
+.fa-search{
+	color:#cccccc;
+}
+.hero-icon{
+	width: 107px;
+	height: 99px;
+}
+.hero-title{
+	text-align: center;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 88px;
+}
+.text-gray-soft{
+	color:#838E95;
+}
+.text-regular{
+	font-size: 18px;
+}
+.hero-btn{
+	padding: 13px 27px;
+	font-size: 16px;	
+	line-height: 1.25;
+	border-radius: 0.25rem;
+	background-color: #7952B3;
+	color: #fff;
+	transition: 0.2s ease;
+}
+.hero-btn:hover{
+	color: #fff;
+	background-color: #6841A2;
+}
+.text-intro{
+	position: relative;
+	font-size: 15px;    
+	letter-spacing: -.01em;
+	line-height: 12px;
+}
+.btn-intro{
+	font-size: 12px;
+	padding: 7.5px 13px;
+}
+.btn-intro:hover{
+	color:#fff !important;
+}
+.course-list{
+	list-style-type: none;
+	padding-left: 0;
+}
+.course-card{
+	height: 300px;
+	border-radius: 8px;
+	box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+	background-color: #E5E9EF;
+}
+.card-img{
+	height: 100%;
+}
+.course-card:hover{
+	cursor: pointer;
+}
+.course-card:hover .course-btn{
+	display: block;
+}
+.course-btn{
+	display: none;
+	position: absolute;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 7.5px 18px;
+	right: 10px;
+	bottom: 10px;
+	background-color: #7952B3;
+	border: 1px solid transparent;
+	transition: 0.2s ease;
+}
+.course-btn:hover{
+	color: #fff;
+	background-color: #6841A2;
+	border: 1px solid transparent;
+}
+.course-list .caption a,
+.course-list .caption p{
+	color: #333;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 500;
+}
+.newsletter{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.newsletter p{
+	font-size: 13px;
+}
+.btn-violet{
+	background-color: #7952B3;
+	font-size: 14px;
+	color: #ffffff;
+}
+.btn-violet:hover{
+	color: #fff;
+	background-color: #6841A2;
+}
+#inlineFormInput{
+	font-size: 14px;
+	font-weight: 200;
+	border: none;
+	background-color: #efefef;
+}
+form label{
+	font-size: 14px;
+	width: 100%;
+}
+#btn-login{
+	width: 100%;
+	padding: 12.5px 27px;
+	font-size: 14px;
+}
